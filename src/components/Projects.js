@@ -23,12 +23,12 @@ function Projects({ setIsActive }) {
       <div
         ref={ref}
         id="projects"
-        className="h-[60vh] md:h-[150vh] w-full bg-[#1A1A1A] text-white pt-[69px]"
+        className="min-h-[30vh] w-full bg-[#1A1A1A] text-white pt-[69px]"
       >
         <div
           data-aos="fade-up"
           data-aos-delay="100"
-          className="text-4xl md:text-6xl h-1/6 w-full flex items-center justify-center font-bold tracking-tight"
+          className="text-4xl md:text-6xl h-1/6 w-full flex items-center justify-center font-bold tracking-tight pb-8"
         >
           Projects
         </div>

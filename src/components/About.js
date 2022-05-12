@@ -21,7 +21,7 @@ function About({ setIsActive }) {
 
   return (
     <>
-      <div className="h-full">
+      <div className="min-h-[100vh]">
         <div
           ref={ref}
           id="about"

@@ -17,7 +17,7 @@ function Contact({ setIsActive }) {
       <div
         ref={ref}
         id="contact"
-        className="h-[100vh] w-full bg-[#1A1A1A] text-white pt-[69px] md:pt-96"
+        className="min-h-[100vh] w-full bg-[#1A1A1A] text-white pt-[69px] md:pt-96"
       >
         <div
           data-aos="fade-up"
